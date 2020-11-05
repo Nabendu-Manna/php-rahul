@@ -59,13 +59,14 @@
     <div class="row">
       <div class="col-lg-12">
           <div class="box-element">
-              <center><h2> php rahul </h2></center>
+            <form class="form-inline my-2 my-lg-0" action = "submit.php" method="post">
+              <input class="form-control mr-sm-2" type="text"  name="uName" placeholder="Name" required/>
+              <input class="form-control mr-sm-2" type="password" name="uPassword" placeholder="Password" required/>
+              <input class="form-control mr-sm-2" type="email" name="uEmail" placeholder="Email" required/>
+              <input class="form-control mr-sm-2" type="text" name="phoneNo" placeholder="Phone no." required/>
+              <input class="btn btn-success my-2 my-sm-0" type="submit" name="s1">
+            </form>
           </div><br>
-          <center><a class="btn btn-primary" href="insert.php" role="button">Insert data
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7.5-3a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
-            </svg>
-          </a></center>
       </div>
     </div>
     <br>
