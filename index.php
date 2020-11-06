@@ -2,6 +2,8 @@
   include("db.php");
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +61,7 @@
     <div class="row">
       <div class="col-lg-12">
           <div class="box-element">
-              <center><h2> php rahul </h2></center>
+              <center><h2>- php rahul -</h2></center>
           </div><br>
           <center><a class="btn btn-primary" href="insert.php" role="button">Insert data
             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
