@@ -1,17 +1,7 @@
 <?php
     include("db.php");
 
-    // if(!$con)
-    // {
-    //   echo 'Not connected to server';
-    // }
-    // if(!mysqli_select_db($con,'Ideal'))
-    // {
-    //   echo 'Database not selected';
-    // }
-
-
-    if(isset($_POST['s1'])){
+    if(isset($_POST['submitData'])){
         $name = $_POST['uName'];
         $password = $_POST['uPassword'];
         $email = $_POST['uEmail'];
@@ -22,7 +12,7 @@
         if($run_insert_sql){
             header("location: index.php");
         }else{
-            header("location: submit.php");
+            header("location: insert.php");
         }
     }else{
         header("location: insert.php");
